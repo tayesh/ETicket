@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="lg:px-32">
+    <!-- navbar -->
+    <div class="navbar bg-base-100 ">
+        <div class="navbar-start">
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box">
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Destination</a></li>
+                    <li><a>Search</a></li>
+                </ul>
+            </div>
+            <a class="btn btn-ghost text-4xl font-bold">E-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-xl">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <div class="btn px-7 bg-[#1dd1001a] border-[#1dd10066]">
+                <p class="inline text-xl text-[#1DD100]">Bus</p><img src="images/bus-icon.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- banner -->
+    <div class="hero w-full rounded-2xl py-24" style="background-image: url(images/banner.png);">
+        <div class="bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+            <div class="">
+                <h1 class="mb-5 text-6xl font-bold mt-14 leading-[100px]">End-To-End Travel with <br><span class="text-[#1DD100]">T Paribahan</span></h1>
+                <p class="mb-5 text-xl">Yes, you can run unit tests and view the results directly within the app. <br> The integrated
+                    testing features allow for a streamlined.</p>
+                <button class="btn bg-[#1DD100] border-none text-xl font-bold  "><a href="">Buy Tickets</a></button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
